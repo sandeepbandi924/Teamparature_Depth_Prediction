@@ -1,7 +1,8 @@
 import streamlit as st
 import numpy as np
-from tensorflow.keras.models import load_model
-from tensorflow.keras.losses import MeanSquaredError
+
+import tensorflow as tf
+# from tensorflow.keras.losses import MeanSquaredError
 import pickle
 
 # Cache model loading to prevent reloading on every interaction
@@ -12,7 +13,7 @@ def load_scaler(file_path):
 
 @st.cache_resource
 def load_model_file(model_path):
-    return load_model(model_path, custom_objects={'mse': MeanSquaredError})
+    return tf.keras.models.load_model(model_path, custom_objects={'mse': tf.keras.losses.MeanSquaredError})
 
 # Load scalers once at startup
 SCALERS = {
