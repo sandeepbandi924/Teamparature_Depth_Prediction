@@ -180,8 +180,8 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## **Connect**
 
-- 🔗 GitHub: [your-username](https://github.com/sandeepbandi924)
-- 🔗 LinkedIn: [your-linkedin](https://www.linkedin.com/in/sandeepbandi/)
+- 🔗 GitHub: [sandeepbandi924](https://github.com/sandeepbandi924)
+- 🔗 LinkedIn: [bandisandeep](https://www.linkedin.com/in/sandeepbandi/)
 
 ---
 
