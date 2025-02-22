@@ -6,6 +6,6 @@ seaborn
 streamlit
 nltk
 tensorflow==2.15.0
-# keras
+keras
 ipykernel
 xgboost
